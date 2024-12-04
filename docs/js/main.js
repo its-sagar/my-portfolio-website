@@ -15,7 +15,7 @@ document.getElementById('download-btn').addEventListener('click', function () {
   const resumePath = 'resume.pdf'; // Replace with the actual file path
   const link = document.createElement('a');
   link.href = resumePath;
-  link.download = 'My_Resume.pdf';
+  link.download = 'Sagar_Resume.pdf';
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);

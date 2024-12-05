@@ -233,7 +233,9 @@ main {
   display: inline;
   text-align: center;
   padding: 1px;
-  text-decoration: none; }
+  text-decoration: none;
+  padding-bottom: 4px;
+  border-radius: 5px; }
 
 button {
   text-align: end; }
